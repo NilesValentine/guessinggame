@@ -1,0 +1,12 @@
+div{color:blue; }
+
+div.id {
+    width: 50%;
+	float: left;
+}
+
+
+
+p.b {color:orange;}
+
+button {color: red;}

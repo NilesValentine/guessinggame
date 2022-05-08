@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css" />
+    <title>Converter</title>
+</head>
+<style>
+    p {
+        font-size: 18px;
+    }
+</style>
+<body>
+    <h1>Metric to Imperial Unit Converter</h1>
+    <div id = "kmToMiles">
+        <p> <b>Distance (Kilometers to Miles)</b> </p>
+        <button onclick = "convertDistance()">Convert</button>
+        <button onclick = "resetDistance()">Reset</button>
+
+        <div id = "distanceResult">
+            <p><b>History:</b></p>
+        </div>
+    </div>
+
+    <div id = "cmToFeet">
+        <p><b>Height (Centimeters to Feet and Inches)</b></p>
+        <button onclick = "convertHeight()">Convert</button>
+        <button onclick = "resetHeight()">Reset</button>
+
+        <div id = "feetOutput">
+            <p><b>History:</b></p>
+        </div>
+    </div>
+
+    <div id = "kgToLbs">
+        <p><b>Weight (Kilograms to Pounds)</b></p>
+        <button onclick = "convertWeight()">Convert</button>
+        <button onclick = "resetWeight()">Reset</button>
+
+        <div id = "lbsOutput">
+            <p><b>History:</b></p>
+        </div>
+    </div>
+
+    <div id = "lToGal">
+        <p><b>Volume (Liters to US Gallon)</b></p>
+        <button onclick = "convertVolume()">Convert</button>
+        <button onclick = "resetVolume()">Reset</button>
+
+        <div id = "galOutput">
+            <p><b>History:</b></p>
+        </div>
+    </div>
+
+    <div id = "cToF">
+        <p><b>Tempterature (Celsius to Fahrenheit)</b></p>
+        <button onclick = "convertTemp()">Convert</button>
+        <button onclick = "resetTemp()">Reset</button>
+
+        <div id = "tempOutput">
+            <p><b>History:</b></p>
+        </div>
+    </div>
+
+    <script src = "converter.js"></script>
+</body>
+</html>
